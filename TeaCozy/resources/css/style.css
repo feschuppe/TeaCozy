@@ -1,0 +1,149 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    margin: 0 auto;
+}
+
+.header {
+    height: 69px;
+    position: fixed;
+    width: 100%;
+    border-bottom: 1px solid seashell;
+    display: inline-flex;
+    justify-content: right;
+}
+
+.header-img {
+    display: flex;
+    position: absolute;
+    left: 10px;
+}
+
+.header-links {
+    width: 400px;
+    display: inline-flex;
+    text-decoration: underline;
+    justify-content: space-around;
+}
+
+.mission {
+    background-image: url(../images/img-mission-background.jpg);
+    height: 700px;
+    width: 1200px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    justify-content: center;
+    position: relative;
+    top: 70px;
+}
+
+.mission-text {
+    background-color: black;
+    text-align: center;
+    width: 100%
+}
+
+.month {
+    width: 1000px;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imageWrap {
+    display: inline-flex;
+    justify-content: center;
+    position: relative;
+    top: 100px;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.imageWrap img {
+    height: 200px;
+    width: 300px;
+    margin: 0 20px 10px 20px;
+}
+
+.location {
+    background-image: url(../images/img-locations-background.jpg);
+    height: 500px;
+    width: 1200px;
+    margin: 0 auto;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 175px;
+}
+
+.location h2 {
+    margin: 0 0;
+    position: relative;
+    bottom: -45px;
+}
+
+.locBoxes {
+    width: 300px;
+    height: 300px;
+    margin: auto 40px;
+    background-color: black;
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.locBoxesWrap {
+    display: inline-flex;
+    margin: auto 40px;
+    justify-content: center;
+    align-content: center;
+}
+
+.footer {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.contact {
+    margin: 0 auto;
+    height: 200px;
+    text-align: center;
+}
+
+.footer h5 {
+    text-align: left;
+    margin-left: 20px;
+    position: relative;
+    top: 100px;
+}
+
+.contact h5 {
+    text-align: center;
+    position: relative;
+    top: 100px;
+}
+
+.contact h2 {
+    position: relative;
+    top: 100px;
+}
